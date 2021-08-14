@@ -9,33 +9,37 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
         body{
-            background-color: rgb(6, 0, 61);
             font-family: 'Righteous', cursive;
         }
+        .img{
+            height: 50%;
+            width: 20rem;
+        }
         img{
-            border-radius: 25px;
-            transform: scale(0.95);
-            box-shadow: 4px 4px 40px -10px rgba(255, 247, 247, 0.75);
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
         }
         .container{
-            min-height: 93vh;
+            min-height: 100vh;
         }
         @media only screen and (max-width:500px){
-            img{
-               height: 35vh;
-               width: 100vw;
-            }
+            
         }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container d-flex justify-content-center align-items-center flex-column">
-        <div class="img">
-            <img src="bg.png" alt="loading">  
+        <div class="shadow-lg p-2 my-2">
+            <h2 class="text-center text-primary fs-1">Divyanshu Kaushik</h2>
+            <h5 class="text-center">Full Stack Developler</h5>
         </div>
-        <div class="heading text-warning fs-1">
-            <p>Coming Soon.....</p>
+        <div class="img shadow-sm p-2 my-3">
+            <img src="comingsoon.gif" alt="loading">  
+        </div>
+        <div class="heading text-warning fs-1 my-2">
+            <p>Live soon..... </p>
         </div>
     </div>
 </body>
